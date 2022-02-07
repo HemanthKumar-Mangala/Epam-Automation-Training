@@ -1,0 +1,9 @@
+2022-02-07 14:59:55,777 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-07 15:02:31,709 [Worker-0: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\user\Testing_workspace\testautomation\pom.xml
+2022-02-07 15:02:45,043 [Worker-0: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestAutomation:testautomation:0.0.1-SNAPSHOT @ C:\Users\user\Testing_workspace\testautomation\pom.xml.
+2022-02-07 15:02:48,731 [Worker-0: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/main/java
+2022-02-07 15:02:48,758 [Worker-0: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testautomation/src/test/java
+2022-02-07 15:02:52,770 [Worker-0: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 21 sec
+2022-02-07 15:02:55,550 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-07 15:02:55,552 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\Testing_workspace\testautomation\src\main\resources
+2022-02-07 15:02:55,562 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
