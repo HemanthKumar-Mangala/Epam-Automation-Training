@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T15:25:21 IST" name="Default suite" finished-at="2022-02-11T15:25:21 IST" duration-ms="367">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T15:25:21 IST" name="Default test" finished-at="2022-02-11T15:25:21 IST" duration-ms="367">
+      <class name="TestAutomation.testng.TestLibrary">
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testActivateuser()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testActivateuser" finished-at="2022-02-11T15:25:21 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActivateuser -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testDeactivateuser()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testDeactivateuser" finished-at="2022-02-11T15:25:21 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeactivateuser -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testIssueBook()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testIssueBook" finished-at="2022-02-11T15:25:21 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testLibraryaddmember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testLibraryaddmember" data-provider="MembersDetails" finished-at="2022-02-11T15:25:21 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raina]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ind]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibraryaddmember -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testLibraryaddmember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testLibraryaddmember" data-provider="MembersDetails" finished-at="2022-02-11T15:25:21 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hemanth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hyd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibraryaddmember -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testLibraryaddmember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testLibraryaddmember" data-provider="MembersDetails" finished-at="2022-02-11T15:25:21 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hemanth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mangala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibraryaddmember -->
+        <test-method is-config="true" signature="initializeMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="initializeMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMembers -->
+        <test-method signature="testaddMembers()[pri:0, instance:TestAutomation.testng.TestLibrary@1a4013]" started-at="2022-02-11T15:25:21 IST" name="testaddMembers" finished-at="2022-02-11T15:25:21 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddMembers -->
+      </class> <!-- TestAutomation.testng.TestLibrary -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
