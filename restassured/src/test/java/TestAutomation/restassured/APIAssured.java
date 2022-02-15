@@ -33,6 +33,7 @@ import static  io.restassured.RestAssured.*;
 
 public class APIAssured {
 	String token;
+	
 	int id;
 
 	double random1;
@@ -73,6 +74,9 @@ public class APIAssured {
 				+ " \"profilepicture\": \"http://restapi.adequateshop.com/Media/Images/a97579ae-86ec-41db-8810-018ffd7dba3c.png\",\r\n"
 				+ " \"location\": \"New Delhi, Delhi, India\",\r\n"
 				+ " \"createdat\": \"2020-05-05T07:25:56.5590666\"\r\n" + "}";
+		
+		
+		
 		 id=given().header("Authorization", "Bearer " + token).and().header("Content-type", "application/json")
 				.body(data).when().post("/users").then().extract().jsonPath().getInt("id");
 		
@@ -86,6 +90,8 @@ public class APIAssured {
 				+ " \"profilepicture\": \"http://restapi.adequateshop.com/Media/Images/a97579ae-86ec-41db-8810-018ffd7dba3c.png\",\r\n"
 				+ " \"location\": \"New Delhi, Delhi, India\",\r\n"
 				+ " \"createdat\": \"2020-05-05T07:25:56.5590666\"\r\n" + "}";
+		
+		
 		given().pathParam("id", id).header("Authorization", "Bearer " + token).and()
 				.header("Content-type", "application/json").body(data).when().put("/users/{id}").then().statusCode(200);
 	}

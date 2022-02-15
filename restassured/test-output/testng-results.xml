@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-14T01:59:17 IST" name="Default suite" finished-at="2022-02-14T01:59:26 IST" duration-ms="8391">
+  <suite started-at="2022-02-15T11:40:55 IST" name="Default suite" finished-at="2022-02-15T11:41:24 IST" duration-ms="29106">
     <groups>
     </groups>
-    <test started-at="2022-02-14T01:59:17 IST" name="Default test" finished-at="2022-02-14T01:59:26 IST" duration-ms="8391">
-      <class name="TestAutomation.restassured.APIAssured">
-        <test-method is-config="true" signature="login()[pri:0, instance:TestAutomation.restassured.APIAssured@1a18644]" started-at="2022-02-14T01:59:17 IST" name="login" finished-at="2022-02-14T01:59:25 IST" duration-ms="7180" status="PASS">
+    <test started-at="2022-02-15T11:40:55 IST" name="Default test" finished-at="2022-02-15T11:41:24 IST" duration-ms="29106">
+      <class name="TestAutomation.restassured.TestObject">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestAutomation.restassured.TestObject@1a18644]" started-at="2022-02-15T11:40:55 IST" name="login" finished-at="2022-02-15T11:41:21 IST" duration-ms="25576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="testapiPOST()[pri:0, instance:TestAutomation.restassured.APIAssured@1a18644]" started-at="2022-02-14T01:59:25 IST" name="testapiPOST" finished-at="2022-02-14T01:59:25 IST" duration-ms="273" status="PASS">
+        <test-method signature="testapiPOST_OnPost()[pri:1, instance:TestAutomation.restassured.TestObject@1a18644]" started-at="2022-02-15T11:41:21 IST" name="testapiPOST_OnPost" finished-at="2022-02-15T11:41:24 IST" duration-ms="2812" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testapiPOST -->
-        <test-method signature="testApiGET()[pri:0, instance:TestAutomation.restassured.APIAssured@1a18644]" started-at="2022-02-14T01:59:25 IST" name="testApiGET" finished-at="2022-02-14T01:59:25 IST" depends-on-methods="TestAutomation.restassured.APIAssured.testapiPOST" duration-ms="257" status="PASS">
+        </test-method> <!-- testapiPOST_OnPost -->
+        <test-method signature="testapiGET_OnPOst()[pri:2, instance:TestAutomation.restassured.TestObject@1a18644]" started-at="2022-02-15T11:41:24 IST" name="testapiGET_OnPOst" finished-at="2022-02-15T11:41:24 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApiGET -->
-        <test-method signature="testapiPUT()[pri:0, instance:TestAutomation.restassured.APIAssured@1a18644]" started-at="2022-02-14T01:59:25 IST" name="testapiPUT" finished-at="2022-02-14T01:59:26 IST" depends-on-methods="TestAutomation.restassured.APIAssured.testApiGET" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testapiPUT -->
-        <test-method signature="testapiDELETE()[pri:0, instance:TestAutomation.restassured.APIAssured@1a18644]" started-at="2022-02-14T01:59:26 IST" name="testapiDELETE" finished-at="2022-02-14T01:59:26 IST" depends-on-methods="TestAutomation.restassured.APIAssured.testapiPUT" duration-ms="255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testapiDELETE -->
-      </class> <!-- TestAutomation.restassured.APIAssured -->
+        </test-method> <!-- testapiGET_OnPOst -->
+      </class> <!-- TestAutomation.restassured.TestObject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
