@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.selenium.TestWebDrivers">
+      <class name="TestAutomation.selenium.SeleniumGrid">
         <methods>
-          <include name="LoadWebDriver"/>
+          <include name="setup"/>
+          <include name="testLoginFunctionality"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.TestWebDrivers -->
+      </class> <!-- TestAutomation.selenium.SeleniumGrid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

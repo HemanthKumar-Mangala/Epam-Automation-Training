@@ -1,11 +1,8 @@
 package TestAutomation.selenium;
 
-
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
+import org.testng.TestNG;
 import org.testng.annotations.*;
-
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 /**
  * Unit test for simple App.

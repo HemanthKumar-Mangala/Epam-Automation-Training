@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 @Test
 public class TestWebDrivers {
 	public void LoadWebDriver() {
-		String driverPath = "C:\\browserDriver\\gecko\\geckodriver.exe";
+		String driverPath = "C:\\browserdriver\\geckodriver\\geckodriver.exe";
 		System.setProperty("webdriver.gecko.driver", driverPath);
 		WebDriver driver = new FirefoxDriver();
 		
