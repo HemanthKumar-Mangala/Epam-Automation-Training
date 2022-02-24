@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T10:27:59 IST" name="Default suite" finished-at="2022-02-22T10:28:11 IST" duration-ms="11773">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T10:27:59 IST" name="Default test" finished-at="2022-02-22T10:28:11 IST" duration-ms="11773">
+      <class name="TestAutomation.selenium.SeleniumSAUCE.SeleniumSauceDriver">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.selenium.SeleniumSAUCE.SeleniumSauceDriver@12aba8be]" started-at="2022-02-22T10:27:59 IST" name="setup" finished-at="2022-02-22T10:28:04 IST" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginPage()[pri:1, instance:TestAutomation.selenium.SeleniumSAUCE.SeleniumSauceDriver@12aba8be]" started-at="2022-02-22T10:28:04 IST" name="testLoginPage" finished-at="2022-02-22T10:28:10 IST" duration-ms="6678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+      </class> <!-- TestAutomation.selenium.SeleniumSAUCE.SeleniumSauceDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
