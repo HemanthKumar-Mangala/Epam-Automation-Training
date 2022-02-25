@@ -70,30 +70,39 @@ public SystemUsers(WebDriver driver) {
     }
     
     
-    public SystemUsers savebtnClick()
-    {
+	public SystemUsers savebtnClick() {
 
-    	
-		JavascriptExecutor js=(JavascriptExecutor)driver;
-		savebtn = (WebElement) js.executeScript("return document.evaluate( '//button[contains(text(),\"Save\")]' ,document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue;");
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(50));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		savebtn = (WebElement) js.executeScript(
+				"return document.evaluate( '//button[contains(text(),\"Save\")]' ,document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null ).singleNodeValue;");
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
 		wait.until(ExpectedConditions.elementToBeClickable(this.savebtn));
-		
-		
-		while(true)
-		{
-			try
-			{
-				js.executeScript("arguments[0].click();",this.savebtn);
-			}
-			catch(Exception e)
-			{
+
+		while (true) {
+
+			try {
+
+				js.executeScript("arguments[0].click();", this.savebtn);
+
+			} catch (Exception e) {
+				
 				return this;
 			}
+
+			try {
+
+				driver.findElement(By.xpath("//tr//td//span[contains(text(),'Amanda')]")).click();
+				return this;
+
+			} catch (Exception e) {
+
+			}
+
 		}
-    	
-    }
+
+	}
     
+  
     public SystemUsers selectclick()
     {
 

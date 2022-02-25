@@ -3278,3 +3278,92 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/re
 2022-02-25 17:37:02,019 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
 2022-02-25 17:37:02,020 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-25 17:37:02,021 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 18:48:28,052 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-25 19:38:06,466 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:38:06,468 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\DataBaseTesting\src\main\resources
+2022-02-25 19:38:06,470 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:38:06,471 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\DataBaseTesting\src\test\resources
+2022-02-25 19:40:24,342 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:40:24,343 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:40:24,345 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:40:24,382 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:45:33,907 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:45:33,908 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:45:33,910 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:45:33,911 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:50:19,216 [Worker-25: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:50:19,216 [Worker-25: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:50:19,219 [Worker-25: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:50:19,219 [Worker-25: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:50:20,369 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:50:20,369 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:50:20,371 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:50:20,372 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:53:07,926 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:53:07,926 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:53:07,928 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:53:07,928 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:53:08,966 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:53:08,967 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:53:08,969 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:53:08,969 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:54:37,786 [Worker-31: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:54:37,786 [Worker-31: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:54:37,789 [Worker-31: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:54:37,790 [Worker-31: Launching OrangeHRM_src.main.SystemuserTest.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 19:54:38,945 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:54:38,945 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 19:54:38,947 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 19:54:38,947 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:04:42,035 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:04:42,036 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:04:42,037 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:04:42,037 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:04:43,076 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:04:43,077 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:04:43,079 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:04:43,079 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:05:04,932 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:05:04,932 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:05:04,933 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:05:04,934 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:07:32,180 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:07:32,181 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:07:32,182 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:07:32,182 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:07:33,205 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:07:33,205 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:07:33,206 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:07:33,207 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:08:53,789 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:08:53,789 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:08:53,789 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:08:53,789 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:15:30,001 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:15:30,001 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:15:30,004 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:15:30,004 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:15:31,036 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:15:31,037 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:15:31,038 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:15:31,038 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:20:10,799 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:20:10,799 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:20:10,800 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:20:10,801 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:20:11,817 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:20:11,818 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:20:11,818 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:20:11,819 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:22:36,558 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:22:36,559 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:22:36,560 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:22:36,560 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:22:37,613 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:22:37,613 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:22:37,614 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:22:37,614 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources
+2022-02-25 20:23:30,220 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:23:30,220 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\main\resources
+2022-02-25 20:23:30,221 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-25 20:23:30,222 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Hemanthkumar_Mangala\Test_Automation_Workspace\test_automation_training\OrangeHRM\src\test\resources

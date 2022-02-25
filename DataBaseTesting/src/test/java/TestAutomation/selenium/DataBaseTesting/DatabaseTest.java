@@ -125,12 +125,6 @@ public class DatabaseTest {
 	    	 ResultSet actualresult=statement.executeQuery("Select * from city");
 	    	 assertTrue(copmareResultSet(result,actualresult));
 	    	
-	    		 
-	    	 
-	    	 
-	    	 
-	    	 
-	    	
 	    }
 	    
 	    @Test
