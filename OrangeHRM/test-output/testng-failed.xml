@@ -11,7 +11,7 @@
       <class name="TestAutomation.selenium.OrangeHRM.TestSystemUser">
         <methods>
           <include name="setup"/>
-          <include name="testlogin"/>
+          <include name="testSystemUser"/>
         </methods>
       </class> <!-- TestAutomation.selenium.OrangeHRM.TestSystemUser -->
     </classes>

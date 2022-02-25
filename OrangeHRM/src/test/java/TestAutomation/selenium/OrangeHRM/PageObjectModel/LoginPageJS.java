@@ -2,6 +2,7 @@ package TestAutomation.selenium.OrangeHRM.PageObjectModel;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -37,6 +38,7 @@ public class LoginPageJS {
 		this.driver = driver;
 		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
 		PageFactory.initElements(factory, this);
+		//driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(15));
 		// PageFactory.initElements(driver, this);
 	}
 

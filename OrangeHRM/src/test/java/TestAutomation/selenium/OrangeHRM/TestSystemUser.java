@@ -1,8 +1,11 @@
 package TestAutomation.selenium.OrangeHRM;
 
 import java.net.MalformedURLException;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -29,6 +32,11 @@ public class TestSystemUser {
 		password = context.getCurrentXmlTest().getParameter("password");
 		driver = WebDriverFactoryOfFactory.getWebDriverfactory(platformName).getWebDriver(browserName);
 		driver.get(url);
+	//	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(15));
+		
+	   Duration d=Duration.ofSeconds(15);
+	    
+	driver.manage().timeouts().setScriptTimeout(d);
 
 	}
 	

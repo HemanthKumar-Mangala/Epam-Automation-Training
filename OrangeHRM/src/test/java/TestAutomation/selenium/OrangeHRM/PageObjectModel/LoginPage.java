@@ -17,7 +17,7 @@ public class LoginPage {
 	
 	private final WebDriver driver;
 	
-	By user=By.id(" ");
+	// By user=By.id(" ");
 	
 	
 	@FindBy(id="txtUsername")
@@ -151,5 +151,10 @@ public class LoginPage {
 	{
 		return new  NavigationMenu(driver);
 	}
+	
 
+	public Dashboard navigateDashboard()
+	{
+		return new Dashboard(driver);
+	}
 }

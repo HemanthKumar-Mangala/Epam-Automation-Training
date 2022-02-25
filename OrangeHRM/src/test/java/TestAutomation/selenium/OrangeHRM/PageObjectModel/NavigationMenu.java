@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 
@@ -48,6 +50,7 @@ public class NavigationMenu {
 		this.driver = driver;
 		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 10);
 		PageFactory.initElements(factory, this);
+		//driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(15));
 		
 		// PageFactory.initElements(driver, this);
 	}

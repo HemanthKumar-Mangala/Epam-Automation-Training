@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-25T17:28:54 IST" name="Default suite" finished-at="2022-02-25T17:28:55 IST" duration-ms="543">
+    <groups>
+    </groups>
+    <test started-at="2022-02-25T17:28:54 IST" name="Default test" finished-at="2022-02-25T17:28:55 IST" duration-ms="543">
+      <class name="TestAutomation.selenium.DataBaseTesting.DatabaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:54 IST" name="setup" finished-at="2022-02-25T17:28:54 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCityByCountryProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:54 IST" name="testCityByCountryProcedureColumnValues" finished-at="2022-02-25T17:28:54 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCityByCountryProcedureColumnValues -->
+        <test-method signature="testCityDetailsProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:54 IST" name="testCityDetailsProcedureColumnValues" finished-at="2022-02-25T17:28:55 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCityDetailsProcedureColumnValues -->
+        <test-method signature="testProcedureName()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:55 IST" name="testProcedureName" finished-at="2022-02-25T17:28:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProcedureName -->
+        <test-method signature="testProducerCityCountByCountry()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:55 IST" name="testProducerCityCountByCountry" finished-at="2022-02-25T17:28:55 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProducerCityCountByCountry -->
+        <test-method signature="testTables()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:55 IST" name="testTables" finished-at="2022-02-25T17:28:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTables -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@27f981c6]" started-at="2022-02-25T17:28:55 IST" name="closeConnection" finished-at="2022-02-25T17:28:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- TestAutomation.selenium.DataBaseTesting.DatabaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
