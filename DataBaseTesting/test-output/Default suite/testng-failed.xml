@@ -5,9 +5,9 @@
     <classes>
       <class name="TestAutomation.selenium.DataBaseTesting.DatabaseTest">
         <methods>
-          <include name="setup"/>
+          <include name="testColumnsIsNullableOrNotInACityTable"/>
           <include name="closeConnection"/>
-          <include name="testTrigger"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- TestAutomation.selenium.DataBaseTesting.DatabaseTest -->
     </classes>

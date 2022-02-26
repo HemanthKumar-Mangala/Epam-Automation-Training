@@ -33,17 +33,145 @@ public class DatabaseTest {
 		String[] tableName=new String[] {"city","country","countrylanguage","employee"};
 		Statement statement=con.createStatement();
 	    String query="show tables";
+	    boolean flag=false;
 	    
 	    ResultSet result=statement.executeQuery(query);
 	    int index=0;
 	    while(result.next())
 	    {
+	     flag=true;
 	     String table=result.getString(1);
 	     assertEquals(tableName[index],table);
 	     index++;
 	    }
+	    assertTrue(true);
 	    
 	}
+	@Test
+	public void testNumberofcolumnsInACityTable() throws SQLException
+	{
+		Statement statement=con.createStatement();
+	    String query="select count(*) as NumberoFColumns from Information_Schema.columns where table_schema=\"world\" and table_name=\"city\";";
+	    ResultSet result=statement.executeQuery(query);
+	    int count=0;
+	   
+	    
+	    while(result.next())
+	    {
+	     
+	    	count=result.getInt("NumberoFColumns");
+	     }
+	    assertEquals(count,5);
+	
+	}
+	
+	@Test
+	public void testColumnNamesInACityTable() throws SQLException
+	{
+		String[] columnNames= {"ID","Name","CountryCode","District","Population"};
+		boolean flag=false;
+		Statement statement=con.createStatement();
+	    String query="select column_name as ColumnNames from Information_Schema.columns where table_schema='world' and table_name='city\';";
+	    	
+	    ResultSet result=statement.executeQuery(query);
+	    
+	   int index=0;
+	    
+	    while(result.next())
+	    {
+	    	flag=true;
+	     
+	    	String columnName=result.getString("ColumnNames");
+	    	assertEquals(columnName,columnNames[index]);
+	    	index++;
+	    	
+	     }
+	    assertTrue(true);
+	}
+	
+	//select Column_Name,Data_type,is_Nullable,character_maximum_length,numeric_precision,numeric_scale,column_key from Information_Schema.columns where table_schema="world" and table_name="city";
+	@Test
+	public void testColumsDataTypeInACityTable() throws SQLException
+	{
+		String[] columnNames= {"ID","Name","CountryCode","District","Population"};
+		String[] dataTypes= {"int","char","char","char","int"};
+		boolean flag=false;
+		Statement statement=con.createStatement();
+		String query="select Column_Name,Data_type from Information_Schema.columns where table_schema='world' and table_name='city';";
+		 ResultSet result=statement.executeQuery(query);
+		    
+		   int index=0;
+		    
+		    while(result.next())
+		    {
+		    	flag=true;
+		     
+		    	String columnName=result.getString(1);
+		    	String dataType=result.getString(2);
+		    	assertEquals(columnName,columnNames[index]);
+		    	assertEquals(dataType,dataTypes[index]);
+		    	index++;
+		    	
+		     }
+		    assertTrue(true);
+		}
+	
+	@Test
+	public void testCharacterMaximunLengthInACityTable() throws  SQLException
+	{
+		String[] columnNames= {"ID","Name","CountryCode","District","Population"};
+		String[] dataTypesLength= {null,"35","3","20",null};
+		boolean flag=false;
+		Statement statement=con.createStatement();
+		String query="select Column_Name,character_maximum_length from Information_Schema.columns where table_schema='world' and table_name='city';";
+		 ResultSet result=statement.executeQuery(query);
+		    
+		   int index=0;
+		    
+		    while(result.next())
+		    {
+		    	flag=true;
+		     
+		    	String columnName=result.getString(1);
+		    	String dataTypeLength=result.getString(2);
+		    	assertEquals(columnName,columnNames[index]);
+		    	assertEquals(dataTypeLength,dataTypesLength[index]);
+		    	index++;
+		    	
+		     }
+		    assertTrue(true);
+		}
+	
+	@Test
+	public void testColumnsIsNullableOrNotInACityTable() throws  SQLException
+	{
+		String[] columnNames= {"ID","Name","CountryCode","District","Population"};
+		String[] isNullable= {"NO","NO","NO","NO","NO"};
+		boolean flag=false;
+		Statement statement=con.createStatement();
+		String query="select Column_Name,is_Nullable from Information_Schema.columns where table_schema='world' and table_name='city';";
+		 ResultSet result=statement.executeQuery(query);
+		    
+		   int index=0;
+		    
+		    while(result.next())
+		    {
+		    	flag=true;
+		     
+		    	String columnName=result.getString(1);
+		    	String nullableResult=result.getString(2);
+		    	
+		    	assertEquals(columnName,columnNames[index]);
+		    	assertEquals(nullableResult,isNullable[index]);
+		    	
+		    	index++;
+		    	
+		     }
+		    assertTrue(true);
+		}
+	
+		
+	
 	
 	@Test
 	public void  testProcedureName() throws SQLException
