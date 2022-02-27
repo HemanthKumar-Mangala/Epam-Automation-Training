@@ -18,6 +18,8 @@ import org.testng.annotations.Test;
 public class DatabaseTest {
 	Connection con;
 	
+	
+	
 	@BeforeTest
 	public void setup() throws SQLException
 	{
@@ -27,6 +29,61 @@ public class DatabaseTest {
 		
 	}
 	
+	@Test
+	public void testFunction_countNumberOfLanguagesInACountry_presence() throws SQLException
+	{
+		Statement statement=con.createStatement();
+	    String query="show function status where name='countNumberOfLanguagesInACountry'";
+	    ResultSet result=statement.executeQuery(query);
+	    String nameOfFunction="";
+	    while(result.next())
+	    {
+	     nameOfFunction=result.getString("Name");
+	    }
+	    assertEquals(nameOfFunction,"countNumberOfLanguagesInACountry");
+	}
+	
+	
+	
+	
+	@Test
+	public void testFunction_countNumberOfLanguagesInACountry_Functionality() throws SQLException
+	{
+		 CallableStatement call = con.prepareCall("{? = call countNumberOfLanguagesInACountry(?)}");
+		 call.registerOutParameter(1, Types.INTEGER);
+		 call.setString(2, "IND");
+		 call.execute();
+		 int count=call.getInt(1);
+		 
+		     Statement statement=con.createStatement();
+		    String query="select count(Language) from countrylanguage where countrycode='IND' ;";
+		    ResultSet result=statement.executeQuery(query);
+		    int actual_Count=0;
+		   
+		    
+		    while(result.next())
+		    {
+		     
+		    	actual_Count=result.getInt(1);
+		     }
+		    
+		  
+		 assertEquals(actual_Count,count);
+	}
+	
+	@Test
+	public void testFunction_countNumberOfLanguagesInACountryIsinWorldSchema() throws SQLException
+	{
+		Statement statement=con.createStatement();
+	    String query="show function status where name='countNumberOfLanguagesInACountry'";
+	    ResultSet result=statement.executeQuery(query);
+	    String nameOfSchema="";
+	    while(result.next())
+	    {
+	    	nameOfSchema=result.getString("Db");
+	    }
+	    assertEquals(nameOfSchema,"world");
+	}
 	@Test
 	public void testTables() throws SQLException
 	{
@@ -89,7 +146,6 @@ public class DatabaseTest {
 	    assertTrue(true);
 	}
 	
-	//select Column_Name,Data_type,is_Nullable,character_maximum_length,numeric_precision,numeric_scale,column_key from Information_Schema.columns where table_schema="world" and table_name="city";
 	@Test
 	public void testColumsDataTypeInACityTable() throws SQLException
 	{
