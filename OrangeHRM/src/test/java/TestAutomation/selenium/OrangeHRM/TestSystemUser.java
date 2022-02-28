@@ -32,6 +32,7 @@ public class TestSystemUser {
 		password = context.getCurrentXmlTest().getParameter("password");
 		driver = WebDriverFactoryOfFactory.getWebDriverfactory(platformName).getWebDriver(browserName);
 		driver.get(url);
+		driver.manage().window().maximize();
 	//	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(15));
 		
 	   Duration d=Duration.ofSeconds(15);
@@ -46,12 +47,14 @@ public class TestSystemUser {
 		login = new LoginPage(driver);
 		login.enterUserName(username).enterPassword(password).clickLoginButton()
 			 .navigateToMenu().AdminBtnClick()
-			 .userManagementBtnClick().usersBtnClick().amandaEditClick()
+			 .userManagementBtnClick().usersBtnClick()
+			 
+			 .amandaEditClick()
 			 .adminroleDropDownClick().globalAdminClick().savebtnClick()
 			 .amandaEditClick().verifyGlobalButtonDisplay().adminroleDropDownClick()
 			 .selectclick().savebtnClick().amandaEditClick()
 			 .verifySelectDisplay().savebtnClick().navigateToMenu().logout();
-			 
+		//.windowHandling();
 			 
 	}
 

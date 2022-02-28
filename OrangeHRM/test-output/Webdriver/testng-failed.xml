@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Webdriver]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TestWebdriver(failed)">
-    <parameter name="BrowserName" value="Chrome"/>
+    <parameter name="BrowserName" value="chrome"/>
     <parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver"/>
     <parameter name="password" value="U@qBLVtm09"/>
     <parameter name="url" value="https://prasoonr-trials73.orangehrmlive.com/"/>

@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-26T23:49:01 IST" name="Default suite" finished-at="2022-02-26T23:49:01 IST" duration-ms="723">
+  <suite started-at="2022-02-28T10:12:55 IST" name="Default suite" finished-at="2022-02-28T10:12:56 IST" duration-ms="1372">
     <groups>
     </groups>
-    <test started-at="2022-02-26T23:49:01 IST" name="Default test" finished-at="2022-02-26T23:49:01 IST" duration-ms="723">
+    <test started-at="2022-02-28T10:12:55 IST" name="Default test" finished-at="2022-02-28T10:12:56 IST" duration-ms="1372">
       <class name="TestAutomation.selenium.DataBaseTesting.DatabaseTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="setup" finished-at="2022-02-26T23:49:01 IST" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:55 IST" name="setup" finished-at="2022-02-28T10:12:56 IST" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCharacterMaximunLengthInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testCharacterMaximunLengthInACityTable" finished-at="2022-02-26T23:49:01 IST" duration-ms="50" status="PASS">
+        <test-method signature="testCharacterMaximunLengthInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testCharacterMaximunLengthInACityTable" finished-at="2022-02-28T10:12:56 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCharacterMaximunLengthInACityTable -->
-        <test-method signature="testCityByCountryProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testCityByCountryProcedureColumnValues" finished-at="2022-02-26T23:49:01 IST" duration-ms="32" status="PASS">
+        <test-method signature="testCityByCountryProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testCityByCountryProcedureColumnValues" finished-at="2022-02-28T10:12:56 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCityByCountryProcedureColumnValues -->
-        <test-method signature="testCityDetailsProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testCityDetailsProcedureColumnValues" finished-at="2022-02-26T23:49:01 IST" duration-ms="83" status="PASS">
+        <test-method signature="testCityDetailsProcedureColumnValues()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testCityDetailsProcedureColumnValues" finished-at="2022-02-28T10:12:56 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCityDetailsProcedureColumnValues -->
-        <test-method signature="testColumnNamesInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testColumnNamesInACityTable" finished-at="2022-02-26T23:49:01 IST" duration-ms="3" status="PASS">
+        <test-method signature="testColumnNamesInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testColumnNamesInACityTable" finished-at="2022-02-28T10:12:56 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testColumnNamesInACityTable -->
-        <test-method signature="testColumnsIsNullableOrNotInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testColumnsIsNullableOrNotInACityTable" finished-at="2022-02-26T23:49:01 IST" duration-ms="3" status="PASS">
+        <test-method signature="testColumnsIsNullableOrNotInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testColumnsIsNullableOrNotInACityTable" finished-at="2022-02-28T10:12:56 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testColumnsIsNullableOrNotInACityTable -->
-        <test-method signature="testColumsDataTypeInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testColumsDataTypeInACityTable" finished-at="2022-02-26T23:49:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="testColumsDataTypeInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testColumsDataTypeInACityTable" finished-at="2022-02-28T10:12:56 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testColumsDataTypeInACityTable -->
-        <test-method signature="testFunction_countNumberOfLanguagesInACountryIsinWorldSchema()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testFunction_countNumberOfLanguagesInACountryIsinWorldSchema" finished-at="2022-02-26T23:49:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="testFunction_countNumberOfLanguagesInACountryIsinWorldSchema()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testFunction_countNumberOfLanguagesInACountryIsinWorldSchema" finished-at="2022-02-28T10:12:56 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFunction_countNumberOfLanguagesInACountryIsinWorldSchema -->
-        <test-method signature="testFunction_countNumberOfLanguagesInACountry_Functionality()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testFunction_countNumberOfLanguagesInACountry_Functionality" finished-at="2022-02-26T23:49:01 IST" duration-ms="9" status="PASS">
+        <test-method signature="testFunction_countNumberOfLanguagesInACountry_Functionality()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testFunction_countNumberOfLanguagesInACountry_Functionality" finished-at="2022-02-28T10:12:56 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFunction_countNumberOfLanguagesInACountry_Functionality -->
-        <test-method signature="testFunction_countNumberOfLanguagesInACountry_presence()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testFunction_countNumberOfLanguagesInACountry_presence" finished-at="2022-02-26T23:49:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="testFunction_countNumberOfLanguagesInACountry_presence()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testFunction_countNumberOfLanguagesInACountry_presence" finished-at="2022-02-28T10:12:56 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFunction_countNumberOfLanguagesInACountry_presence -->
-        <test-method signature="testNumberofcolumnsInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testNumberofcolumnsInACityTable" finished-at="2022-02-26T23:49:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="testNumberofcolumnsInACityTable()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testNumberofcolumnsInACityTable" finished-at="2022-02-28T10:12:56 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNumberofcolumnsInACityTable -->
-        <test-method signature="testProcedureName()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testProcedureName" finished-at="2022-02-26T23:49:01 IST" duration-ms="3" status="PASS">
+        <test-method signature="testProcedureName()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testProcedureName" finished-at="2022-02-28T10:12:56 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProcedureName -->
-        <test-method signature="testProducerCityCountByCountry()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testProducerCityCountByCountry" finished-at="2022-02-26T23:49:01 IST" duration-ms="13" status="PASS">
+        <test-method signature="testProducerCityCountByCountry()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testProducerCityCountByCountry" finished-at="2022-02-28T10:12:56 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProducerCityCountByCountry -->
-        <test-method signature="testTables()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="testTables" finished-at="2022-02-26T23:49:01 IST" duration-ms="3" status="PASS">
+        <test-method signature="testTables()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="testTables" finished-at="2022-02-28T10:12:56 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTables -->
-        <test-method is-config="true" signature="closeConnection()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-26T23:49:01 IST" name="closeConnection" finished-at="2022-02-26T23:49:01 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:TestAutomation.selenium.DataBaseTesting.DatabaseTest@2d710f1a]" started-at="2022-02-28T10:12:56 IST" name="closeConnection" finished-at="2022-02-28T10:12:56 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConnection -->

@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Types;
+import java.util.ArrayList;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
@@ -87,21 +88,36 @@ public class DatabaseTest {
 	@Test
 	public void testTables() throws SQLException
 	{
-		String[] tableName=new String[] {"city","country","countrylanguage","employee"};
+		ArrayList<String> expectedTableNames=new ArrayList<String>();
+		expectedTableNames.add("city");
+		expectedTableNames.add("country");
+		expectedTableNames.add("countrylanguage");
+		expectedTableNames.add("employee");
+		
+		
+		
 		Statement statement=con.createStatement();
+		ArrayList<String> actualTableNames=new ArrayList<String>();
 	    String query="show tables";
-	    boolean flag=false;
+	   
 	    
 	    ResultSet result=statement.executeQuery(query);
-	    int index=0;
 	    while(result.next())
 	    {
-	     flag=true;
+	     
 	     String table=result.getString(1);
-	     assertEquals(tableName[index],table);
-	     index++;
+	     actualTableNames.add(table);
+	     
 	    }
-	    assertTrue(true);
+	    
+	    for(String expectedresult:expectedTableNames)
+	    {
+	    	 actualTableNames.contains(expectedresult);
+	    }
+	    
+	    
+	    
+	   
 	    
 	}
 	@Test
@@ -347,4 +363,11 @@ public class DatabaseTest {
 	{
 		con.close();
 	}
+	
+	
+
+	
+	
+	
+	
 }

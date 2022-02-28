@@ -2,13 +2,18 @@ package TestAutomation.selenium.OrangeHRM.PageObjectModel;
 
 import static org.testng.Assert.assertTrue;
 
+
 import java.time.Duration;
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
@@ -101,6 +106,22 @@ public SystemUsers(WebDriver driver) {
 		}
 
 	}
+	
+	
+	public SystemUsers savebtnClickUsingEnter()
+	{
+		savebtn =driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
+//		
+//		savebtn.sendKeys(Keys.ENTER);
+		
+		Actions actions=new Actions(driver);
+		actions.moveToElement(savebtn);
+		actions.click(savebtn);
+		Action action=actions.build();
+		action.perform();
+		return this;
+		
+	}
     
   
     public SystemUsers selectclick()
@@ -135,7 +156,32 @@ public SystemUsers(WebDriver driver) {
 		return new  NavigationMenu(driver);
 	}
     
-    
+    public void windowHandling()
+    {
+    	this.amandaEditClick();
+    	 String MainWindow=driver.getWindowHandle();	
+    	 Set<String> s1=driver.getWindowHandles();	
+    	 Iterator<String> i1=s1.iterator();		
+ 		
+         while(i1.hasNext())			
+         {		
+             String ChildWindow=i1.next();		
+             		
+            
+                  
+                     System.out.println("Hello");
+                     driver.switchTo().window(ChildWindow);	                                                                                                           
+                     driver.findElement(By.xpath("//button[contains(text(),\"Save\")]")).click();
+                                  
+ 			// Closing the Child Window.
+                         //driver.close();		
+           	
+         }		
+         // Switching to Parent window i.e Main Window.
+             driver.switchTo().window(MainWindow);
+             this.amandaEditClick();
+
+    }
     
     
     
