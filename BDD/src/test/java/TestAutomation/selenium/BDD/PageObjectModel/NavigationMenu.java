@@ -102,14 +102,18 @@ public class NavigationMenu {
 	}
 	
 	
-	
+	public NavigationMenu clickOnUserDropDown()
+	{
+		this.leftdropdown=driver.findElement(By.id("user-dropdown"));
+		
+		this.leftdropdown.click();
+		return this;
+	}
 	
 	
 public NavigationMenu logout()
 {
-	this.leftdropdown=driver.findElement(By.id("user-dropdown"));
 	
-	this.leftdropdown.click();
 	
 	this.logoutbtn=driver.findElement(By.id("logoutLink"));
 	

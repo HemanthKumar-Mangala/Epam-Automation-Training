@@ -7,19 +7,32 @@ Feature: System Users Page
     Given Username is 'Admin' and password is 'U@qBLVtm09'
     When user click on login button
     Then user should navigate to Dashboard
-    When click on Admin button and click on user management button and click on users
+    
+    When user click on Admin button 
+    And click on user management button 
+    And click on users
     Then user should navigate to SystemUsersPage
-    When click on Amnada_user edit button
+    
+    When user click on Amnada_user edit button
     Then A child window should be opened 
-    When click on roles dropdown
-    Then change the role to Global Admin and save
-    When click on Amnada_user edit button
+    
+    When user click on roles dropdown
+    Then change the role to Global Admin 
+    And click save button
+    
+    When user click on Amnada_user edit button
     Then verify Global Admin is selected or not
-    When click on roles dropdown
-    Then change the role to Select and save 
-    When click on Amnada_user edit button
-    Then verify the role is set to selected and save
-    When click on user drop down menu and click on click logout
+    
+    When user click on roles dropdown
+    Then change the role to Select 
+    And click save button
+    
+    When user click on Amnada_user edit button
+    Then verify the role is set to selected 
+    And click save button
+    
+    When user click on user drop down menu 
+    And click on click logout
     Then user is navigated to login page
     
   

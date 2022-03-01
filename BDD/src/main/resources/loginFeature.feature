@@ -4,7 +4,8 @@
   Given Browser
 
   Scenario: LoginPage
-    Given Username is 'Admin' and password is 'U@qBLVtm09'
+    Given User is on login page 
+    And Username is 'Admin' and password is 'U@qBLVtm09'
     When user click on login button
     Then user should navigate to Dashboard
 

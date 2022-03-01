@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 //import org.testng.annotations.BeforeClass;
 //import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeTest;
 
 import TestAutomation.selenium.BDD.AbstractFactoryDesign.WebDriverFactoryOfFactory;
 import TestAutomation.selenium.BDD.PageObjectModel.LoginPage;
@@ -15,24 +16,22 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
 public class CucumberDefinitionImpl {
-	public static WebDriver driver;
+	public  WebDriver driver;
 
-	public static String platformname;
-	public static String orangeHRMURL;
+	public String platformname;
+	public String orangeHRMURL;
 	public LoginPage loginPage;
 	
-	
-	
-	 public static  void beforeScenario() throws MalformedURLException {
-			String browserName = "chrome";
-			platformname = "LocalWebDriver";
-			orangeHRMURL = "https://prasoonr-trials73.orangehrmlive.com/" ;
-	
-			driver = WebDriverFactoryOfFactory.getWebDriverfactory(platformname).getWebDriver(browserName);
-			driver.get(orangeHRMURL);
-			driver.manage().window().maximize();
-
+	public CucumberDefinitionImpl()
+	{
+		
+		SharedData shareddata=new SharedData();
+	    driver=(WebDriver) shareddata.getAttribute("WebDriver");	
+	    loginPage = new LoginPage(driver);
 	}
+	
+	
+	
 
 	
 	@Given("Open Browser")
@@ -44,7 +43,8 @@ public class CucumberDefinitionImpl {
 
 	@Given("Username is {string} and password is {string}")
 	public void username_is_and_password_is(String userName, String password) {
-		loginPage = new LoginPage(driver);
+		
+		
 		loginPage = loginPage.enterUserName(userName).enterPassword(password);
 
 	}
@@ -71,5 +71,19 @@ public class CucumberDefinitionImpl {
 		assertTrue(currentUrl.endsWith("retry"));
 
 	}
+	
+	@Then("user should navigate to {string}")
+	public void user_should_navigate_to(String string) {
+		String currentUrl = driver.getCurrentUrl();
+		assertTrue(currentUrl.endsWith(string));
+	    
+	}
+	
+	@Given("User is on login page")
+	public void user_is_on_login_page() {
+		driver.get("https://prasoonr-trials73.orangehrmlive.com/auth/login");
+	}
+    
+	
 
 }

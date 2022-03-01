@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Webdriver">
+	<test name="TestWebdriver">
+		<parameter name="BrowserName" value="chrome" />
+		<parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver" />
+		<parameter name="url" value="https://prasoonr-trials73.orangehrmlive.com/" />
+		<classes>
+			<class name="TestAutomation.selenium.BDD.feature.TestLoginPage" />
+		</classes>
+	</test>
+</suite>
