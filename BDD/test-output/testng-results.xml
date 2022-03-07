@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="35" passed="35" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-02T04:11:09 IST" name="Webdriver" finished-at="2022-03-02T04:11:18 IST" duration-ms="8347">
+  <suite started-at="2022-03-03T01:24:45 IST" name="Webdriver" finished-at="2022-03-03T01:24:48 IST" duration-ms="2815">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-03-02T04:11:09 IST" name="TestWebdriver" finished-at="2022-03-02T04:11:18 IST" duration-ms="8347">
-      <class name="TestAutomation.selenium.BDD.feature.TestCalculator">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:09 IST" name="setup" finished-at="2022-03-02T04:11:11 IST" duration-ms="2109" status="PASS">
+    <test started-at="2022-03-03T01:24:45 IST" name="TestWebdriver" finished-at="2022-03-03T01:24:48 IST" duration-ms="2815">
+      <class name="TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner@71ba6d4e]" started-at="2022-03-03T01:24:45 IST" name="setup" finished-at="2022-03-03T01:24:47 IST" duration-ms="2075" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30bbcf91]]>
+                <![CDATA[org.testng.TestRunner@65a9ea3c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:11 IST" name="setUpClass" finished-at="2022-03-02T04:11:12 IST" duration-ms="253" status="PASS">
+        <test-method signature="testCucumberScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner@71ba6d4e]" started-at="2022-03-03T01:24:47 IST" name="testCucumberScenario" data-provider="scenariors" finished-at="2022-03-03T01:24:48 IST" duration-ms="443" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30bbcf91]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:12 IST" duration-ms="497" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
+                <![CDATA["DataTable"]]>
               </value>
             </param>
             <param index="1">
@@ -47,12 +33,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:12 IST" duration-ms="139" status="PASS">
+        </test-method> <!-- testCucumberScenario -->
+        <test-method signature="testCucumberScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner@71ba6d4e]" started-at="2022-03-03T01:24:48 IST" name="testCucumberScenario" data-provider="scenariors" finished-at="2022-03-03T01:24:48 IST" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Calculator UI Test number button"]]>
+                <![CDATA["DataTable"]]>
               </value>
             </param>
             <param index="1">
@@ -63,12 +49,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:12 IST" duration-ms="93" status="PASS">
+        </test-method> <!-- testCucumberScenario -->
+        <test-method signature="testCucumberScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner@71ba6d4e]" started-at="2022-03-03T01:24:48 IST" name="testCucumberScenario" data-provider="scenariors" finished-at="2022-03-03T01:24:48 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Calculator UI Test number button"]]>
+                <![CDATA["Names"]]>
               </value>
             </param>
             <param index="1">
@@ -79,524 +65,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:12 IST" duration-ms="68" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testCucumberScenario -->
+        <test-method is-config="true" signature="finishRunner()[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner@71ba6d4e]" started-at="2022-03-03T01:24:48 IST" name="finishRunner" finished-at="2022-03-03T01:24:48 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="82" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="86" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="78" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="76" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="77" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="83" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test number button"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test opearotors"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="97" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test opearotors"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="85" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test opearotors"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="75" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test opearotors"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="77" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test opearotors"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:13 IST" duration-ms="93" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Display screen"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="126" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Button color"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="99" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Button color"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="118" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Button color"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Button color"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="110" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator UI Test Button color"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="218" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:14 IST" duration-ms="149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:15 IST" duration-ms="144" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:15 IST" duration-ms="186" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:15 IST" duration-ms="212" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:15 IST" duration-ms="204" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:15 IST" duration-ms="197" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:16 IST" duration-ms="172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:16 IST" duration-ms="130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:16 IST" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator number should come on display scree"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:16 IST" duration-ms="483" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator Add functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:17 IST" duration-ms="443" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator Add functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:17 IST" duration-ms="392" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator Add functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T04:11:18 IST" duration-ms="460" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Calculator Add functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Calcaulator application]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestAutomation.selenium.BDD.feature.TestCalculator@d86a6f]" started-at="2022-03-02T04:11:18 IST" name="tearDownClass" finished-at="2022-03-02T04:11:18 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- TestAutomation.selenium.BDD.feature.TestCalculator -->
+        </test-method> <!-- finishRunner -->
+      </class> <!-- TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner -->
     </test> <!-- TestWebdriver -->
   </suite> <!-- Webdriver -->
 </testng-results>

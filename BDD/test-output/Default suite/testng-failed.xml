@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAutomation.selenium.BDD.feature.TestSystemUsersPage">
+      <class name="TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="testCucumberScenario"/>
         </methods>
-      </class> <!-- TestAutomation.selenium.BDD.feature.TestSystemUsersPage -->
+      </class> <!-- TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

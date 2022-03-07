@@ -77,6 +77,16 @@ Examples:
 |8 |
 |9 |
 
+@DataTable
+Scenario: DataTable
+Given Calculator page is open
+And Following button are clicked
+    |2|
+    |+|
+    |3|
+    |=|
+Then display screen should have number '5'   
+
 @Functional
 Scenario Outline: Calculator Add functionality
 Given Calculator page is open
@@ -92,3 +102,22 @@ Examples:
 |2		 |-         |2      |=          |0      |
 |3     |*         |3      |=          |9      |
 |5     |/         |2      |=          |2.5    |
+
+
+@DataTable
+Scenario: DataTable
+Given Book name and author
+    |book                                        |author              |
+    |Believe                                     |Raina               |
+    |The Story Of My Experiments With The Truth  |Mahatma Gandhi      |
+    |The Guide                                   |R.K. Narayan        | 
+    |Gitanjali                                   |Rabindranath Tagore | 
+    |A. P. J. Abdul Kalam                        |Wings of fire       |
+  
+ @DataTable
+Scenario: Names
+Given Names and id
+    |name      |id  |
+    |Hemanth   |1   |
+    
+     

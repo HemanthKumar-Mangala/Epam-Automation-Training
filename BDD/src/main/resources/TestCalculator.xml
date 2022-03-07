@@ -6,7 +6,7 @@
 		<parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver" />
 		<parameter name="url" value="https://prasoonr-trials73.orangehrmlive.com/" />
 		<classes>
-			<class name="TestAutomation.selenium.BDD.feature.TestCalculator" />
+			<class name="TestAutomation.selenium.BDD.feature.TestCalculatorUsingRunner" />
 			
 		</classes>
 	</test>
