@@ -114,7 +114,7 @@ Given Book name and author
     |Gitanjali                                   |Rabindranath Tagore | 
     |A. P. J. Abdul Kalam                        |Wings of fire       |
   
- @DataTable
+@DataTable
 Scenario: Names
 Given Names and id
     |name      |id  |

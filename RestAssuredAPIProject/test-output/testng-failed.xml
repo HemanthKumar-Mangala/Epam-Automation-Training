@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RestAPI(failed)">
+    <parameter name="cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=b3a8d5405c8e2622bbeada7619b5244a"/>
+    <parameter name="token" value="28c32f7452281917b79877115ccde6ff4d462a6a"/>
+    <classes>
+      <class name="TestAutomation.selinium.RestAssuredAPIProject.RestAPITesting">
+        <methods>
+          <include name="testAttendancesheet"/>
+          <include name="overlappingRecords"/>
+          <include name="testAttendancesheetIdGETafterPunchout"/>
+          <include name="testDelete"/>
+          <include name="testattendanceRecordsPunchOUT"/>
+          <include name="testPunchInOut"/>
+          <include name="testAttendancesheetIdGET"/>
+          <include name="testInvalidTimeFormat"/>
+          <include name="testattendanceRecordsPunchIN"/>
+          <include name="testPunchInafterpunchIn"/>
+          <include name="testPunchOutafterPunchOut"/>
+          <include name="testconversionoftimetominutes"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestAutomation.selinium.RestAssuredAPIProject.RestAPITesting -->
+    </classes>
+  </test> <!-- RestAPI(failed) -->
+</suite> <!-- Failed suite [Automation] -->

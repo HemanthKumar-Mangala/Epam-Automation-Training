@@ -18,6 +18,32 @@ class Test
 	{
 		return  this.a;
 	}
+	public static  String addTwoTimes(String time1,String time2)
+	{
+		String time1Hours=time1.split(":")[0];
+		String time2Hours=time2.split(":")[0];
+		
+		String time1Minutes=time1.split(":")[1];
+		String time2Minutes=time2.split(":")[1];
+		
+		int hh1=Integer.parseInt(time1Hours);
+		int hh2=Integer.parseInt(time2Hours);
+		
+		int mm1=Integer.parseInt(time1Minutes);
+		int mm2=Integer.parseInt(time2Minutes);
+		
+		int mm=mm1+mm2;
+		int hh=hh1+hh2;
+		
+		
+		if(mm>=60)
+		{
+			mm=mm-60;
+			hh++;
+		}
+		
+		return hh+":"+mm;
+	}
 	
 }
 
@@ -37,20 +63,7 @@ public class Interfacesclarity {
 	}
 	
 	public static void main(String[] args) {
-		Interfacesclarity obj=new Interfacesclarity();
-		ArrayList<Test>l=new ArrayList<Test>();
-		Test t1=new Test(5);
-		l.add(t1);
-		Test t2=new Test(6);
-		l.add(t2);
-		Test t3=new Test(7);
-		l.add(t3);
-		obj.filter(l,t->t.a%2==0);
-		//obj.filter(l,(Test y)->y.a%2==0);
-		for(Test t:l)
-		{
-			System.out.println(t.getint());
-		}
+		System.out.println(Test.addTwoTimes("4:10","02:00"));
 	}
     
 }

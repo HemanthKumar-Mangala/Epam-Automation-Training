@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Webdriver">
+	<test name="TestWebdriver">
+		<parameter name="BrowserName" value="chrome" />
+		<parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver" />
+		<parameter name="url" value="https://prasoonr-trials73.orangehrmlive.com/" />
+		<parameter name="username" value="Admin" />
+		<parameter name="password" value="U@qBLVtm09" />
+		<classes>
+			<class name="TestAutomation.selenium.Test.TestMyAttendanceSheetPage" />
+		</classes>
+	</test>
+</suite>

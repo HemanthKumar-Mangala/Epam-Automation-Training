@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<test name="RestAPI">
+<parameter name="token" value="28c32f7452281917b79877115ccde6ff4d462a6a"></parameter>
+<parameter name="cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=b3a8d5405c8e2622bbeada7619b5244a"></parameter>
+<classes>
+<class name="TestAutomation.selinium.RestAssuredAPIProject.RestAPITesting" />
+</classes>
+</test>
+</suite>
