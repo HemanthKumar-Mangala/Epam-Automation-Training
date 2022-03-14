@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Speakers]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddSpeaker(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver"/>
+    <parameter name="spearkerName" value="Hemanth  Kumar Hemanth"/>
+    <parameter name="accountEmail" value="hemanthkumar@epam.com"/>
+    <parameter name="speakerEmail" value="hemanthkumar9999999@epam.com"/>
+    <parameter name="speakerProfile" value="Java"/>
+    <parameter name="accountPassword" value="hemanth789"/>
+    <parameter name="url" value="http://epinhydw0087/programs/#/"/>
+    <classes>
+      <class name="TestAutomation.Selenium.TestClass.TestAddSpeaker">
+        <methods>
+          <include name="testSignInPage"/>
+          <include name="verifyUserIsInSignInPageOrNot"/>
+          <include name="testDisableUser"/>
+          <include name="testAddSpeakers"/>
+          <include name="testNameRequiredFieldError"/>
+          <include name="testSignUpPage"/>
+          <include name="setup"/>
+          <include name="testProfileRequiredField"/>
+          <include name="testDashBoardPage"/>
+          <include name="testEmailformatError"/>
+          <include name="testverifySpeakerAddedOrNot"/>
+          <include name="testEmailRequiredFieldError"/>
+          <include name="testSaveButtonDisabled"/>
+          <include name="testUserDisabled"/>
+        </methods>
+      </class> <!-- TestAutomation.Selenium.TestClass.TestAddSpeaker -->
+    </classes>
+  </test> <!-- AddSpeaker(failed) -->
+</suite> <!-- Failed suite [Speakers] -->

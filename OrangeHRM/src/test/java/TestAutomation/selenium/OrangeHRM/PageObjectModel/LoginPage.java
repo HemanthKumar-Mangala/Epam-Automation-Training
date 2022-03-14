@@ -17,7 +17,7 @@ public class LoginPage {
 	
 	private final WebDriver driver;
 	
-	// By user=By.id(" ");
+	
 	
 	
 	@FindBy(id="txtUsername")

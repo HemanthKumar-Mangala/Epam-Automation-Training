@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Speakerr">
+	<test name="speakertAPITest">
+		<parameter name="BrowserName" value="chrome" />
+		<parameter name="OrangeHRmTestExecutionPlatfrom" value="LocalWebDriver" />
+		<parameter name="url" value="http://epinhydw0087/programs/#/" />
+		<parameter name="accountEmail" value="hemanthkumar@epam.com" />
+		<parameter name="accountPassword" value="hemanth789" />
+        <parameter name="spearkerName" value="Hemanth" />
+        <parameter name="speakerEmail" value="hemanthkumar141@epam.com" />
+        <parameter name="speakerProfile" value="Java" />
+		<classes>
+			
+            <class name="TestAutomation.Selenium.TestClass.APITest"/>
+		</classes>
+	</test>
+</suite>
